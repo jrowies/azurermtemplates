@@ -44,13 +44,6 @@
                 "Description": "Number of VMs to create"
             }
         },
-        "subscriptionId": {
-            "type": "string",
-            "defaultValue": "2fa5f746-4f54-48dc-a26e-384ff2e6ae45",
-            "metadata": {
-                "Description": "Subscription ID"
-            }
-        },
         "addressPrefix": {
             "type": "string",
             "defaultValue": "10.0.0.0/16",
@@ -149,7 +142,6 @@
                     "adminUsername": { "value": "[parameters('adminUsername')]" },
                     "adminPassword": { "value": "[parameters('adminPassword')]" },
                     "numberOfInstances": { "value": "[parameters('scaleNumberPerRegion')]" },
-                    "subscriptionId": { "value": "[parameters('subscriptionId')]" },
                     "region": { "value": "[parameters('region')]" },
                     "publicIPNamePrefix": { "value": "[variables('publicippref1')]" },
                     "nicNamePrefix": { "value": "[variables('nicref1')]" },
