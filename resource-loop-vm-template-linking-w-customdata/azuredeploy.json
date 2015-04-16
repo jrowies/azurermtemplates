@@ -1,6 +1,6 @@
 {
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
-    "contentVersion": "1.0.0.0",
+    "contentVersion": "1.0.0.1",
     "parameters": {
         "storageAccountNamePrefix": {
             "type": "string",
@@ -75,12 +75,14 @@
         },
         "adminUsername": {
             "type": "string",
+            "defaultValue": "test",
             "metadata": {
                 "Description": "Admin User Name for all VMs"
             }
         },
         "adminPassword": {
             "type": "securestring",
+            "defaultValue": "test",
             "metadata": {
                 "Description": "Admin Password for all VMs"
             }
