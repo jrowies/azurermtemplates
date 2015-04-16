@@ -3,7 +3,7 @@
     "storageAccountNamePrefix" : {
         "value":"myAGstg"
     },
-    "scaleNumberPerRegion" : {
+    "scaleNumberPerRegion" : { 
         "value" : 2
     } 
 }
