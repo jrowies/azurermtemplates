@@ -4,10 +4,7 @@
     "parameters": {
         "storageAccountNamePrefix": {
             "type": "string",
-            "defaultValue": "myStg",
-            "metadata": {
-                "Description": "Vhd files will be stored here"
-            }
+            "defaultValue": "myStg"
         },
         "virtualNetworkName": {
             "type": "string",
