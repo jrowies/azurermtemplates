@@ -1,9 +1,9 @@
 {
-    "contentVersion": "1.0.0.0",
+    
     "storageAccountNamePrefix" : {
         "value":"myAGstg"
     },
-    "scaleNumberPerRegion" : {
+    "scaleNumberPerRegion" : { 
         "value" : 2
-    }
+    } 
 }
